@@ -17,10 +17,11 @@ public class Student {
         return count;
     }
 
-    public Student(String name, int IDnumber, int[] marks) {
+    public Student(String name, int IDnumber) {
         this.name = name;
         this.IDnumber = IDnumber;
-        this.marks= marks;
+        this.marks = new int[]{0,0,0,0,0,0,0,0,0,0};
+        //this.marks= marks;
     }
 
 }
