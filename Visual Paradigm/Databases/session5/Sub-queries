@@ -1,0 +1,20 @@
+#DBMS lecture 6 - Subqueries
+
+#list names of players who have >=100 batting score
+SELECT DISTINCT name FROM mccPlayer,mccMatch_performance WHERE mccPlayer.registration_number = mccMatch_performance.registration_number AND batting_score >= 100;
+
+SELECT DISTINCT name FROM mccPlayer WHERE registration_number IN (SELECT DISTINCT registration_number FROM mccMatch_performance WHERE batting_score >= 100);
+
+#list reg of players who have not played in a match
+SELECT DISTINCT registration_number, name FROM mccPlayer WHERE registration_number NOT IN (SELECT DISTINCT registration_number FROM mccMatch_performance);
+
+#list reg of players who have achieved the highest score;
+SELECT registration_number, batting_score FROM mccMatch_performance WHERE batting_score IN (SELECT MAX(batting_score) FROM mccMatch_performance);
+
+SELECT DISTINCT registration_number, batting_score FROM mccMatch_performance WHERE batting_score = (SELECT MAX(batting_score) FROM mccMatch_performance);
+
+#list names of players who scored more than average
+SELECT name FROM mccPlayer WHERE registration_number IN (SELECT registration_number FROM mccMatch_performance WHERE batting_score > (SELECT AVG(batting_score) FROM mccMatch_performance));
+
+#list names of players who played at Collingwood Fields ground
+SELECT name FROM mccPlayer P WHERE EXISTS (SELECT * FROM mccMatch_performance MP INNER JOIN mccMatches M WHERE MP.match_date = M.match_date AND ground_name = 'Collingwood Fields' AND P.registration_number = MP.registration_number);

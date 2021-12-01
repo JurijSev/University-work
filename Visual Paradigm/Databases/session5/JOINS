@@ -1,0 +1,19 @@
+#DBMS lecture 6 - Joins
+
+#Joins 2 tables together
+SELECT * FROM mccPlayer T1 INNER JOIN mccMatch_performance T2 ON T1.registration_number = T2.registration_number;
+
+#Joins 3 tables together
+SELECT * FROM mccPlayer T1 INNER JOIN mccMatch_performance T2 ON T1.registration_number = T2.registration_number INNER JOIN mccMatches T3 ON T2.match_date = T3.match_date WHERE batting_score>=100;
+
+#Left Join
+SELECT name, batting_score, T2.registration_number FROM mccPlayer T1 LEFT JOIN mccMatch_performance T2 ON T1.registration_number = T2.registration_number;
+
+#Using inner join to do a more advanced search in one table
+SELECT DISTINCT T2.name, T2.p_street FROM mccPlayer T1 INNER JOIN mccPlayer T2 ON T1.p_town = T2.p_town WHERE T1.name = "Hashim Amla";
+
+#Using inner join to find grounds in the same town as leaside
+SELECT DISTINCT T2.ground_name FROM mccGround T1 INNER JOIN mccGround T2 ON T1.g_town = T2.g_town WHERE T1.ground_name = "Leaside";
+
+#Union function (gets towns from both tables)
+SELECT p_town FROM mccPlayer UNION SELECT g_town FROM mccGround;
