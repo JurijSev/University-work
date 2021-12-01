@@ -1,5 +1,4 @@
-//Create Student class - Question 1
-public class Student {
+public class Student {      //Create Student class - Question 1
     private String name;
     private int studentNumber;
     private boolean passJava;

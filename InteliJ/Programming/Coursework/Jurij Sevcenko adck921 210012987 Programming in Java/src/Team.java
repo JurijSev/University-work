@@ -37,7 +37,6 @@ public class Team {
         this.member1 = member1;
         this.member2 = member2;
         this.member3 = member3;
-        //number of teams doesn't require to be this.numberOfTeams
-        ++numberOfTeams;
+        ++numberOfTeams;            //number of teams doesn't require to be this.numberOfTeams even though it is private
     }
 }
