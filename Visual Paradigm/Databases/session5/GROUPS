@@ -1,0 +1,15 @@
+#Lecture 6 - GROUPS
+
+SELECT ground_name, COUNT(*) FROM mccMatches GROUP BY ground_name;
+
+SELECT ground_name, match_date, COUNT(*) FROM mccMatches GROUP By ground_name;
+
+SELECT ground_name, match_date FROM mccMatches ORDER BY ground_name;
+
+#Num of matches played at each ground since 2012;
+
+SELECT ground_name, COUNT(*) FROM mccMatches WHERE match_date >120100 GROUP BY ground_name;
+
+#Having clause
+
+SELECT ground_name, COUNT(*) FROM mccMatches WHERE match_date >050100 GROUP By ground_name HAVING COUNT(*)>=4;
