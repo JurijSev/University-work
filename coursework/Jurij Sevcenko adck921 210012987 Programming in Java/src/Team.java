@@ -1,5 +1,4 @@
-//Create Team Class - Question 3
-public class Team {
+public class Team {     //Create Team Class - Question 3
     private static int numberOfTeams = 0;
     private Student member1;
     private Student member2;
