@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS ClubMember;
+
+CREATE TABLE ClubMember (
+    ClubMemberID INT, 
+    ClubMemberName VARCHAR(255) NOT NULL, 
+    ClubMemberAddress VARCHAR(255) NOT NULL, 
+    PRIMARY KEY(ClubMemberID));
+    
