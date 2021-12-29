@@ -1,0 +1,63 @@
+DROP TABLE IF EXISTS efasmMember , efasmLocation , efasmFish , efasmCaught , efasmMember_History , efasMLocation_Fish;
+
+CREATE TABLE efasmMember(
+    MemberID INT,
+    Name VARCHAR(255) NOT NULL,
+    Age INT NOT NULL,
+    Nationality VARCHAR(255) NOT NULL,
+    Address VARCHAR(255),
+    Town_City VARCHAR(255),
+    Contact_Info VARCHAR(255),
+    Join_Date INT NOT NULL,
+    PRIMARY KEY(MemberID));
+
+CREATE TABLE efasmLocation(
+    Name VARCHAR(255) NOT NULL,
+    Postcode VARCHAR(255),
+    Type VARCHAR(255) NOT NULL,
+    PRIMARY KEY(Postcode));
+
+CREATE TABLE efasmFish(
+    Scientific_Name VARCHAR(255),
+    Max_Size_CM INT NOT NULL,
+    Max_Weight_KG INT NOT NULL,
+    Habitat VARCHAR(255) NOT NULL,
+    Popularity INT,
+    PRIMARY KEY(Scientific_Name));
+
+CREATE TABLE efasmCaught(
+    Caught_Date INT,
+    Caught_Time INT,
+    MemberID INT NOT NULL,
+    Fish VARCHAR(255) NOT NULL,
+    Scientific_Name VARCHAR(255) NOT NULL,
+    Weight INT NOT NULL,
+    Postcode VARCHAR(255) NOT NULL,
+    Bait_Used VARCHAR(255) NOT NULL,
+    Fishing_Rod VARCHAR(255) NOT NULL,
+    PRIMARY KEY (Caught_Date, Caught_Time),
+    FOREIGN KEY (MemberID) REFERENCES efasmMember(MemberID),
+    FOREIGN KEY (Scientific_Name) REFERENCES efasmFish(Scientific_Name),
+    FOREIGN KEY (Postcode) REFERENCES efasmLocation(Postcode));
+
+CREATE TABLE efasmMember_History(
+    Caught_Date INT NOT NULL,
+    Caught_Time INT NOT NULL,
+    Location VARCHAR(255) NOT NULL,
+    Fish_Caught VARCHAR(255) NOT NULL,
+    MemberID INT,
+    PRIMARY KEY (MemberID),
+    FOREIGN KEY (MemberID) REFERENCES efasmMember(MemberID));
+
+CREATE TABLE efasMLocation_Fish(
+    Postcode VARCHAR(255) NOT NULL,
+    Scientific_Name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (Postcode, Scientific_Name),
+    FOREIGN KEY (Postcode) REFERENCES efasmLocation(Postcode),
+    FOREIGN KEY (Scientific_Name) REFERENCES efasmFish(Scientific_Name));
+
+
+INSERT INTO efasmFish 
+(Habitat, Max_Size_CM, Max_Weight_KG, Popularity, Scientific_Name) 
+VALUES ("River",150,28,100,"Esox_lucius"),
+("River",71,3,200,"Perca");
