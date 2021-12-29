@@ -1,0 +1,180 @@
+##Attributes - start with lowercase (secondWord <like this - no spaces);
+##Entities  - start with uppercase
+
+
+
+/* Student name: Jurij Sevcenko          
+Student username: adck921       
+*/
+
+/* SECTION 1 CREATE TABLE STATEMENTS */
+
+DROP TABLE efasmMember;
+
+CREATE TABLE efasmMember(
+    memberID INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INTEGER NOT NULL,
+    nationality VARCHAR(255) NOT NULL,
+    address VARCHAR NOT NULL,
+    townCity NOT NULL,
+    contactPhone INTEGER NOT NULL,
+    join_Date INTEGER NOT NULL);
+    
+CREATE TABLE efasmFish(
+    SpeciesName VARCHAR(255) NOT NULL PRIMARY KEY,
+    maxSizeCM INTEGER NOT NULL,
+    maxWeightKG INTEGER NOT NULL,
+    maxAge INTEGER NOT NULL,
+    habitat VARCHAR(255) NOT NULL,
+    popularity INTEGER NOT NULL,
+    location VARCHAR(255)NOT NULL);
+    
+CREATE TABLE efasmLocation(
+    postcode VARCHAR(255) NOT NULL PRIMARY KEY,
+    county VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(255) NOT NULL);
+    
+CREATE TABLE efasmHistory(
+    memberID INTEGER NOT NULL PRIMARY KEY,
+    date INTEGER NOT NULL,
+    time INTEGER NOT NULL,
+    location INTEGER NOT NULL,
+    fishCaught VARCHAR(255),
+    memberID FOREIGN KEY REFERENCES efasmMember);
+    
+CREATE TABLE efasmCaught(
+    date INTEGER NOT NULL PRIMARY KEY,
+    time INTEGER NOT NULL PRIMARY KEY,
+    memberID INTEGER NOT NULL,
+    fish VARCHAR(255) NOT NULL,
+    speciesName VARCHAR(255) NOT NULL,
+    weight NOT NULL,
+    locationName VARCHAR(255) NOT NULL,
+    baitUsed VARCHAR(255),
+    fishingRod VARCHAR(255)
+    memberID FK ref Member,
+    speciesName FK ref fish,
+    locatonName FK ref location);
+
+CREATE TABLE efasmFishLocation(
+    locationName VARCHAR(255) NOT NULL PRIMARY KEY,
+    speciesName VARCHAR(255) NOT NULL PRIMARY KEY,
+    locationName FK ref location,
+    speciesName FK ref fish);
+
+
+/* SECTION 2 INSERT STATEMENTS */
+
+INSERT INTO efasmMember
+                     
+/* SECTION 3 UPDATE STATEMENTS */
+
+
+
+/* SECTION 4 SINGLE TABLE QUERIES */
+
+
+/* 
+1)  
+
+*/
+
+
+
+/* 
+2)  
+
+*/
+
+
+
+
+/* 
+3)  
+
+*/
+
+
+
+/* 
+4)  
+
+*/
+
+
+
+
+/* 
+5)  
+
+*/
+
+
+
+/* 
+6)  
+
+*/
+
+
+
+/* SECTION 5 MULTIPLE TABLE QUERIES */
+
+
+/* 
+1)  
+
+*/
+
+
+
+/* 
+2)  
+
+*/
+
+
+
+/* 
+3)  
+
+*/
+
+
+ 
+
+/* 
+4)  
+
+*/
+
+
+
+/* 
+5)  
+
+*/
+
+
+
+
+/* 
+6)  
+
+*/
+
+
+
+/* SECTION 6 DELETE ROWS (make sure the SQL is commented out in this section)
+
+
+
+*/
+
+/* SECTION 6 DROP TABLES (make sure the SQL is commented out in this section)
+
+
+
+*/

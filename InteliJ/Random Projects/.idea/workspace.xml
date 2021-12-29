@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c3daf5d-5801-43d4-8a5a-503e65c6040f" name="Changes" comment="" />
+    <list default="true" id="3e581dde-c76c-4006-b7d8-93273421a1f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../coursework/Jurij Sevcenko adck921 210012987 Programming in Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../coursework/Jurij Sevcenko adck921 210012987 Programming in Java/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="21WUT1hICWk92qHt9ZXmlihnUO1" />
+  <component name="ProjectId" id="22EiHTgGhXZdw02vfwfDVzaKHaC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,37 +28,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="create.test.in.the.same.root" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Jurij Sevcenko adck921 210012987 Programming in Java" />
+    <configuration name="Math" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Math" />
+      <module name="Random Projects" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9c3daf5d-5801-43d4-8a5a-503e65c6040f" name="Changes" comment="" />
-      <created>1638056342412</created>
+      <changelist id="3e581dde-c76c-4006-b7d8-93273421a1f5" name="Changes" comment="" />
+      <created>1639409062367</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638056342412</updated>
-      <workItem from="1638056343798" duration="210000" />
-      <workItem from="1638371614121" duration="809000" />
-      <workItem from="1638372969719" duration="49000" />
-      <workItem from="1639408964623" duration="95000" />
+      <updated>1639409062367</updated>
+      <workItem from="1639409063782" duration="1386000" />
+      <workItem from="1639489350982" duration="104000" />
     </task>
     <servers />
   </component>
