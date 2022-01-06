@@ -1,0 +1,25 @@
+SELECT DISTINCT fishCaught, memberId FROM efasmHistory ORDER BY memberId;
+
+
+SELECT DISTINCT fishCaught, memberId FROM efasmHistory ORDER BY memberId;
+
+SELECT memberId, COUNT(DISTINCT fishCaught) AS 'Fish' FROM efasmHistory GROUP BY memberId;
+
+/*SELECT memberId FROM efasmHistory WHERE Fish=(SELECT COUNT(DISTINCT fishCaught) AS 'Fish' FROM efasmHistory GROUP BY memberId);
+
+SELECT MAX()*/
+SELECT ground_name, COUNT(*) FROM mccMatches WHERE match_date>120100 GROUP BY ground_name;                                                                
+                                                                                    
+SELECT memberId, MAX(fishCaught_count) 
+FROM (SELECT memberId, MAX(DISTINCT fishCaught) AS fishCaught_count 
+     FROM efasmHistory
+     GROUP BY memberId) AS custom
+     GROUP BY memberId;
+                                                                                    
+                                                                                   
+/*SELECT year, occupation, MAX(occupation_count)
+FROM (SELECT year, occupation, COUNT(occupation)  AS occupation_count
+FROM dailyshow 
+GROUP BY year, occupation
+ORDER BY year, occupation_count DESC)
+GROUP BY year;*/

@@ -138,7 +138,7 @@ INSERT INTO efasmFish VALUES('Esox lucius',150,28,25,'river','lake'),
     ('Rutilus rutilus',50,3,18,'river','lake'),
     ('Abramis brama',90,9,29,'river','lake'),
     ('Cyprinus carpio',120,40,38,'lake','river'),
-    ('Tinca tinca',70,2,15,'lake','river'),
+    ('Tinca tinca',70,2,15,'lake',null),
     ('Oncorhynchus mykiss',115,22,7,'stream','lake');
 
 /*postcode, county, name,num, environmenttype*/
@@ -711,25 +711,58 @@ ON T1.memberId=T3.memberId
 WHERE T2.memberId=13
 ORDER BY T3.weightKG DESC;
 
-/* 3)   */
+/* 3) What are the rod owner's biggest catches on their specific rods?*/
+
+SELECT name, T2.fishingRod, T3.species 
+FROM efasmMember T1 
+INNER JOIN efasmRodOwners T2 
+ON T1.memberId=T2.memberId 
+INNER JOIN efasmCaught T3 
+ON T1.memberId=T3.memberId 
+WHERE T2.memberId=13;
+/*This needs carrying on*/
+
+/* 4) List fish can be caught on what bait and which rod? */
+
+SELECT fish, baitType.T2 
+FROM efasmFish T1 
+INNER JOIN efasmBait T2 
+ON T1.speciesName=T2.speciesName;
+
+/* 5) Which Member has caught the most different fish? */
+
+SELECT name 
+FROM efasmMember
+WHERE memberId=(
+	SELECT memberId 
+	FROM (SELECT memberId, MAX(Fish) 
+		FROM (SELECT memberId, 
+			COUNT(DISTINCT fishCaught) AS 'Fish' 
+			FROM efasmHistory 
+			GROUP BY memberId) 
+		AS fishes) 
+	AS fishCount); 
 
 
-/* 4)   */
+/* 6) List all fish that each member has caught */
 
-
-
-/* 5)   */
-
-
-
-
-/* 6)   */
+SELECT T1.name, T2.fishCaught 
+FROM efasmMember T1 
+RIGHT OUTER JOIN efasmCaught T2 
+ON T1.memberId = T2.memberId 
+UNION 
+SELECT T1.name, T2.fishCaught 
+FROM efasmMember T1 
+RIGHT OUTER JOIN efasmCaught T2 
+ON T1.memberId=T2.memberId;
 
 
 
 /* SECTION 6 DELETE ROWS (make sure the SQL is commented out in this section)
 
 DELETE FROM efasmFishLocality WHERE localityName='WatmoreFarmFishery' AND speciesName='Perca';
+
+DELETE T1, T2 FROM efasmHistory T1, efasmCaught T2 WHERE T1.memberId=3 AND T1.memberId = T2.memberId AND T1.dateCaught = 20190524 AND T1.dateCaught=T2.dateCaught AND T1.timeCaught =1034 AND T1.timeCaught=T2.timeCaught;
 
 */
 
