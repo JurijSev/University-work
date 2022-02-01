@@ -1,0 +1,63 @@
+/* 1)  What rods does member 9 own and what is their name? */
+	/*Includes Value Comparison*/
+
+SELECT name, T2.fishingRod 
+FROM efasmMember T1 
+INNER JOIN efasmRodOwners T2 
+ON T1.memberId=T2.memberId 
+WHERE T2.memberId=9;
+
+/* 2)   */
+	/*Includes 3+ Table Join, Value Comparison and order Clause*/ --------------- NEEDS TO PREVENT IT DUPLICATIONG
+MAybe by distinct?
+
+SELECT name, T3.fishingRodUsed, T3.species, T3.weightKG 
+FROM efasmMember T1 
+INNER JOIN efasmRodOwners T2 
+ON T1.memberId=T2.memberId 
+INNER JOIN efasmCaught T3 
+ON T1.memberId=T3.memberId 
+WHERE T2.memberId=13
+ORDER BY T3.weightKG DESC;
+
+
+/* 3) What are the rod owner's biggest catches on their specific rods?*/----------------------------------
+	/**/
+
+SELECT name, T2.fishingRod, T3.species 
+FROM efasmMember T1 
+INNER JOIN efasmRodOwners T2 
+ON T1.memberId=T2.memberId 
+INNER JOIN efasmCaught T3 
+ON T1.memberId=T3.memberId 
+WHERE T2.memberId=13;
+/*This needs carrying on*/
+
+
+/* 5) Which Member has caught the most different fish? */ -----all good
+
+SELECT name 
+FROM efasmMember
+WHERE memberId=(
+	SELECT memberId 
+	FROM (SELECT memberId, MAX(Fish) 
+		FROM (SELECT memberId, 
+			COUNT(DISTINCT fishCaught) AS 'Fish' 
+			FROM efasmHistory 
+			GROUP BY memberId) 
+		AS fishes) 
+	AS fishCount); 
+
+
+/* 6) List all fish that each member has caught */ ----not sure;
+
+SELECT T1.name, T2.fishCaught 
+FROM efasmMember T1 
+RIGHT OUTER JOIN efasmCaught T2 
+ON T1.memberId = T2.memberId 
+UNION 
+SELECT T1.name, T2.fishCaught 
+FROM efasmMember T1 
+RIGHT OUTER JOIN efasmCaught T2 
+ON T1.memberId=T2.memberId
+ORDER BY T1.memberId;

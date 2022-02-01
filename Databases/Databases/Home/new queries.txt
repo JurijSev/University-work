@@ -1,0 +1,66 @@
+
+null
+
+1) SELECT speciesName FROM efasmFish WHERE secondaryHabitat IS NULL OR primaryHabitat IS NUll;
+
+
+
+String Searches, order clauses
+
+/* 2) Which members live in London? (in alphabetical order)*/
+
+2) SELECT name AS memberNames, townCity FROM efasmMember WHERE townCity='london' ORDER BY name ASC;
+
+
+group, order clauses, having clause, aggregate function
+
+3) SELECT fishingRod, COUNT(memberId) AS Number_of_Members FROM efasmRodOwners GROUP BY fishingRod HAVING COUNT(memberId)>3 ORDER BY fishingRod ASC;
+/*Can be compared to SELECT fishingRod, COUNT(memberId) FROM efasmRodOwners GROUP BY fishingRod ORDER BY fishingRod ASC;*/
+
+
+
+Value comparisons, String searches, Aggregate functions, 
+
+/* 4) How many people have caught a Bream in 2020? */
+
+4) SELECT COUNT(species) AS times_Caught 
+FROM efasmCaught WHERE dateCaught>=20200101 AND dateCaught<=20201231 AND species='Abramis brama';
+
+
+sub-queries, string searches, aggregate functions
+
+/* 5) Which is the most popular fish in the location Walton On Thames? */
+
+SELECT DISTINCT speciesName
+FROM efasmFishLocality 
+WHERE localityName='WaltonOnThames' AND popularityScale=(
+	SELECT MAX(popularityScale) 
+	FROM efasmFishLocality 
+	WHERE localityName='WaltonOnThames');
+
+
+sub-queries, aggregate functions, string searches, 
+
+/* 6) Which location is Perch most popular in and Carp is least popular in (but still present)? */
+
+SELECT localityName, speciesName, popularityScale 
+FROM efasmFishLocality 
+WHERE popularityScale=(
+	SELECT MAX(popularityScale) 
+	FROM efasmFishLocality 
+	WHERE speciesName = 'Perca') 
+AND speciesName ='Perca' OR popularityScale=(
+	SELECT MIN(popularityScale) 
+	FROM efasmFishLocality 
+	WHERE speciesName = 'Cyprinus carpio') 
+AND speciesName ='Cyprinus carpio'; 
+
+
+
+3+table joins
+
+
+
+
+
+
