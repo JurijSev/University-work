@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="24Vd8X0Ybe01gyEoxqfknQ29lop" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,6 +55,7 @@
       <updated>1643719528607</updated>
       <workItem from="1643719529732" duration="47000" />
       <workItem from="1643719584550" duration="976000" />
+      <workItem from="1643720956634" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -70,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643720088519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added coder info">
+      <created>1643721112067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643721112067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added coder info" />
