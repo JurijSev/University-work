@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a64701d7-e602-4ec1-8f7e-b0d592f1d90c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise6/Exercise6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise7/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise7/Exercise7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tutorial 3/Exercise7/src/Exercise7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Visual Paradigm/Databases/courseWork/Fishing group v1.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Visual Paradigm/Databases/courseWork/Fishing group v1.vpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="20CNUXPGIStlBMuThO0v3t4eFiD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Exercise7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise7" />
+      <module name="exercise7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exercise7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a64701d7-e602-4ec1-8f7e-b0d592f1d90c" name="Changes" comment="" />
+      <created>1635544629779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635544629779</updated>
+      <workItem from="1635544630992" duration="727000" />
+      <workItem from="1636100404427" duration="620000" />
+      <workItem from="1636101393921" duration="297000" />
+      <workItem from="1636103533506" duration="144000" />
+      <workItem from="1636824666431" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
