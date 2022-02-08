@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="changed a few things">
+      <change beforePath="$PROJECT_DIR$/../CityEngine/BasicDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CityEngine/BasicDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,12 +75,9 @@
       <workItem from="1643895484590" duration="175000" />
       <workItem from="1643975467595" duration="628000" />
       <workItem from="1643978640051" duration="600000" />
-<<<<<<< HEAD
       <workItem from="1644321755480" duration="834000" />
       <workItem from="1644323124555" duration="1403000" />
-=======
       <workItem from="1644321755480" duration="1476000" />
->>>>>>> 74892615afcc997e65c48d75a31f2cba2c6629b2
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
