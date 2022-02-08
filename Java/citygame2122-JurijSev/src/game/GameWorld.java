@@ -5,6 +5,8 @@ import city.cs.engine.*;
 import city.cs.engine.StaticBody;
 import org.jbox2d.common.Vec2;
 
+
+
 public class GameWorld extends World {
     public GameWorld() {
         super();
@@ -18,6 +20,7 @@ public class GameWorld extends World {
         Student student = new Student(this);
         student.setPosition(new Vec2(7, -9));
         student.setCredits(15);
+
 
         //**move** here the rest of the code from Gave.java that
         //populates the World - add platforms, Student, etc.

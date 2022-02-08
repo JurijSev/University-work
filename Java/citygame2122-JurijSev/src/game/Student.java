@@ -2,17 +2,18 @@ package game;
 
 import city.cs.engine.*;
 
-public class Student extends DynamicBody {
+public class Student extends Walker {
     private static final Shape studentShape = new BoxShape(1,2);
 
     private static final BodyImage image = new BodyImage("data/student.png", 4f);
 
-    public Student(GameWorld world) {
+    private int credits;
+
+    public Student(World world) {
         super(world, studentShape);
         addImage(image);
+        credits = 0;
     }
-
-    private int credits = 0;
 
     public int getCredits() {
         return credits;

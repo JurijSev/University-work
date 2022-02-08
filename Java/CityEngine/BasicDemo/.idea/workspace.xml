@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc8f7c3-0876-4000-b733-835d50ec3db2" name="Default Changelist" comment="basic demo install">
-      <change afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/GameView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/GameWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicDemo/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicDemo/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../citygame2122-JurijSev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../citygame2122-JurijSev/out/production/CityGame/game/Game.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/GameWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../citygame2122-JurijSev/src/game/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548259911878" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../citygame2122-JurijSev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,6 +202,7 @@
       <workItem from="1643973148469" duration="835000" />
       <workItem from="1643974008044" duration="1431000" />
       <workItem from="1643976461807" duration="2757000" />
+      <workItem from="1644337270129" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="basic demo install">
       <created>1643719037119</created>
