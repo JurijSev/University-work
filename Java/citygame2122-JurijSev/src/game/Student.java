@@ -2,13 +2,14 @@ package game;
 
 import city.cs.engine.*;
 
-public class Student extends World {
+public class Student extends DynamicBody {
     private static final Shape studentShape = new BoxShape(1,2);
 
+    private static final BodyImage image = new BodyImage("data/student/.png", 4f);
 
-    //private static final   DynamicBody student = new DynamicBody(this, studentShape);
-
-    //private static final BodyImage = student.addImage(new BodyImage("data/student.png", 4));
-
+    public Student(World world){
+        super(world, studentShape);
+        addImage(image);
+    }
 
 }
