@@ -35,17 +35,47 @@ public class Game {
         StaticBody platform1 = new StaticBody(world, platformShape);
         platform1.setPosition(new Vec2(-8, 5.5f));
 
+        //make a new platform
+        StaticBody platform2 = new StaticBody(world, platformShape);
+        platform2.setPosition(new Vec2(8, 5.5f));
+        platform2.setAngleDegrees(225);
+
+        //Build walls outside platform
+        Shape wallShape= new BoxShape(0.5f,3);
+        StaticBody wall1 = new StaticBody(world, wallShape);
+        wall1.setPosition(new Vec2(-10.5f,-8));
+        StaticBody wall2 = new StaticBody(world, wallShape);
+        wall2.setPosition(new Vec2(10.5f,-8));
+
+
+
+        //make a ball
+        Shape ballShape = new CircleShape(1.5f,8,7f);
+        DynamicBody ball = new DynamicBody(world, ballShape);
+
 
         //make a character (with an overlaid image)
         Shape studentShape = new BoxShape(1,2);
         DynamicBody student = new DynamicBody(world, studentShape);
-        student.setPosition(new Vec2(7,-9));
+        student.setPosition(new Vec2(7,-5));
         student.addImage(new BodyImage("data/student.png", 4));
-
+        student.setAlwaysOutline(true);
+        student.setLinearVelocity(new Vec2(0,10.2f));
+        student.setAngularVelocity(2.5f);
 
         //3. make a view to look into the game world
-        UserView view = new UserView(world, 500, 500);
+        UserView view = new UserView(world, 800, 600);
+        //view.setCentre(new Vec2(10,0));
 
+        Shape towerShape = new BoxShape(0.5f,0.25f);
+        //Body towerBody = new DynamicBody(world, towerShape);
+        //towerBody.setPosition(new Vec2(0,0));
+
+        for(int i=0;i<50;i++){
+            Body towerBody = new DynamicBody(world, towerShape);
+            towerBody.setFillColor(new Color(200+i,200+i,150+i));
+            towerBody.setPosition(new Vec2(0+0.1f*i,-5+i));
+        }
 
         //optional: draw a 1-metre grid over the view
         //view.setGridResolution(1);
@@ -80,3 +110,7 @@ public class Game {
         new Game();
     }
 }
+
+
+
+
