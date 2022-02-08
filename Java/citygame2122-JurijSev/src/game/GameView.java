@@ -3,9 +3,7 @@ package game;
 import city.cs.engine.UserView;
 
 public class GameView extends UserView {
-
-    public GameView(GameWorld w, int width, int height){
-        super(w,width ,height);
+    public GameView(GameWorld world, int width, int height) {
+        super(world, width, height);
     }
-    //UserView view = new UserView(world, 500, 500);
 }
