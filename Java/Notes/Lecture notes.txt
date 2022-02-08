@@ -1,0 +1,3 @@
+Static bodies - fixed - not subject to physics
+
+Dynamic bodies - moveable - subject to physics
