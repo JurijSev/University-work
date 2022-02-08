@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class GameView extends UserView {
+
     private Image background;
 
     public GameView(GameWorld world, int width, int height) {
@@ -15,7 +16,7 @@ public class GameView extends UserView {
 
 
 
-    @Override
+    //@Override
     protected void paintBackground(Graphics2D g) {
         g.drawImage(background, 0, 0, this);
     }

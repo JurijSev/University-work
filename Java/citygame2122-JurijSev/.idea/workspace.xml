@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="Encapsulation process done">
-      <change beforePath="$PROJECT_DIR$/../CityEngine/BasicDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CityEngine/BasicDemo/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="trying to add background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/GameWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/GameWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <workItem from="1644321755480" duration="834000" />
       <workItem from="1644323124555" duration="1403000" />
       <workItem from="1644321755480" duration="1476000" />
-      <workItem from="1644354291406" duration="2334000" />
+      <workItem from="1644354291406" duration="2801000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -138,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644338960351</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="trying to add background">
+      <created>1644356894980</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644356894980</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +167,7 @@
     <MESSAGE value="Added coder info" />
     <MESSAGE value="changed a few things" />
     <MESSAGE value="Encapsulation process done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulation process done" />
+    <MESSAGE value="trying to add background" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to add background" />
   </component>
 </project>
