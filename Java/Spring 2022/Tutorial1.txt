@@ -1,0 +1,28 @@
+1. Count how many 0 are in the array
+2. Checks how many values are in order
+3. Use a placeholder for the i value as it gets overwritten
+4. 
+
+array = (27,14,77,85,34,16,58,34,29,39)
+int x = input
+
+for every index in the array{
+	if x is equal to a value in the array{
+		Return index of the value
+	}
+}
+
+This algorithm is O(n)
+
+5. 
+
+array = ()
+int largest = 0
+
+for every index in array{
+	if value at index > largest{
+		replace largest with value at index
+	}
+}
+
+return largest 
