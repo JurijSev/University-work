@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="trying to add background">
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q6/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q6/Q6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q6/src/MaxProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q7/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q7/Q7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q7/src/SequentialSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q8/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q8/Q8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 2/Q8/src/SearchArrayInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -76,6 +97,7 @@
       <workItem from="1644323124555" duration="1403000" />
       <workItem from="1644321755480" duration="1476000" />
       <workItem from="1644354291406" duration="2801000" />
+      <workItem from="1644495027749" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -164,6 +186,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added coder info" />
     <MESSAGE value="changed a few things" />
     <MESSAGE value="Encapsulation process done" />
