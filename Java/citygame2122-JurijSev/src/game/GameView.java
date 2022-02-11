@@ -11,11 +11,11 @@ public class GameView extends UserView {
 
     public GameView(GameWorld world, int width, int height) {
         super(world, width, height);
-        background = new ImageIcon("data/taiga.jpeg").getImage();
+        background = new ImageIcon("data/Woods location.png").getImage();
     }
 
     @Override
     protected void paintBackground(Graphics2D g) {
-        g.drawImage(background, -100, 0,700,500, this);
+        g.drawImage(background, -100, 0,2200,500, this);
     }
 }

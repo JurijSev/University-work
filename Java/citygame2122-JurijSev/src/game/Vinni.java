@@ -2,15 +2,15 @@ package game;
 
 import city.cs.engine.*;
 
-public class Student extends Walker {
-    private static final Shape studentShape = new BoxShape(1,2);
+public class Vinni extends Walker {
+    private static final Shape vinniShape = new BoxShape(1.5f,1.8f);
 
-    private static final BodyImage image = new BodyImage("data/student.png", 4f);
+    private static final BodyImage image = new BodyImage("data/front.png", 4f);
 
     private int credits;
 
-    public Student(World world) {
-        super(world, studentShape);
+    public Vinni(World world) {
+        super(world, vinniShape);
         addImage(image);
         credits = 0;
     }
@@ -22,4 +22,5 @@ public class Student extends Walker {
     public void setCredits(int credits) {
         this.credits = credits;
     }
+
 }
