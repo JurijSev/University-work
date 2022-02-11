@@ -14,7 +14,7 @@ public class GameWorld extends World {
         // make the ground
         Shape shape = new BoxShape(11, 0.5f);
         StaticBody ground = new StaticBody(this, shape);
-        ground.setPosition(new Vec2(0f, -11.5f));
+        ground.setPosition(new Vec2(0f, -9.5f));
 
         // make the character
         Student student = new Student(this);
