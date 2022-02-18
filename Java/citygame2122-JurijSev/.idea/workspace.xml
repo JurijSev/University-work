@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="Added Events (walk left and right)">
-      <change afterPath="$PROJECT_DIR$/src/game/MouseHandler.java" afterDir="false" />
+    <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="Added Event jump, added removeallimages() to change image direction.">
       <change beforePath="$PROJECT_DIR$/../BodiesDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../BodiesDemo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GiveFocus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GiveFocus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/PolygonEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/PolygonEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/PolygonEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/PolygonEditor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Vinni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Vinni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/VinniController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/VinniController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +110,7 @@
       <workItem from="1644577150008" duration="11341000" />
       <workItem from="1644925947421" duration="924000" />
       <workItem from="1645185881913" duration="3801000" />
-      <workItem from="1645197001547" duration="2870000" />
+      <workItem from="1645197001547" duration="3332000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -201,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645197775699</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Event jump, added removeallimages() to change image direction.">
+      <created>1645199942375</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645199942375</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +234,7 @@
     <MESSAGE value="trying to add background" />
     <MESSAGE value="Added Background" />
     <MESSAGE value="Added Events (walk left and right)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Events (walk left and right)" />
+    <MESSAGE value="Added Event jump, added removeallimages() to change image direction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Event jump, added removeallimages() to change image direction." />
   </component>
 </project>
