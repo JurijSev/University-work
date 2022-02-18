@@ -14,7 +14,7 @@ public class Vinni extends Walker {
             -1.27f,1.7f);
 
     private static final BodyImage standingImage = new BodyImage("data/front.png", 4f);
-    public static final BodyImage walkRightImage = new BodyImage("data/right.png", 4f);
+    //public static final BodyImage walkRightImage = new BodyImage("data/right.png", 4f);
 
     private int credits;
 
