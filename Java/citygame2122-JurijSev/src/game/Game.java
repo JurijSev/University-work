@@ -28,9 +28,17 @@ public class Game {
         //in the GameWorld constructor
 
 
-
         //3. make a view to look into the game world
         GameView view = new GameView(world,500,500);
+
+        view.addMouseListener(new GiveFocus(view));
+
+
+        VinniController controller = new VinniController(world.getVinni());
+
+        view.addKeyListener(controller);
+
+
 
 
         //optional: draw a 1-metre grid over the view
