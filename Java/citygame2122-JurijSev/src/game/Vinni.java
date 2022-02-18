@@ -13,14 +13,14 @@ public class Vinni extends Walker {
             -1.6f,-0.35f,
             -1.27f,1.7f);
 
-    private static final BodyImage standingImage = new BodyImage("data/front.png", 4f);
-    //public static final BodyImage walkRightImage = new BodyImage("data/right.png", 4f);
+    public static final BodyImage standingImageRight = new BodyImage("data/Vinni/front.png", 4f);
+    //public static final BodyImage standingImageLeft = new BodyImage("data/Vinni/front2.png", 4f);
 
     private int credits;
 
     public Vinni(World world) {
         super(world, vinniShape);
-        addImage(standingImage);
+        addImage(standingImageRight);
         credits = 0;
     }
 
