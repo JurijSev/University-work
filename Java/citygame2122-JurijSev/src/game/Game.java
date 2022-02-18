@@ -28,7 +28,6 @@ public class Game {
         MouseHandler mouseHandler = new MouseHandler(world,view);
 
         view.addMouseListener(mouseHandler);
-        view.addMouseListener(mouseHandler);
 
         VinniController controller = new VinniController(world.getVinni());
 
