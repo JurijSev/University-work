@@ -18,7 +18,11 @@ public class VinniController implements KeyListener {
         if(code == KeyEvent.VK_D){
             vinni.startWalking(5);
         }else if(code == KeyEvent.VK_A){
+            vinni.removeAllImages();
+            //vinni.addImage(walkRightImage);
             vinni.startWalking(-5);
+        }else if(code == KeyEvent.VK_SPACE){
+            vinni.jump(10);
         }
     }
 
@@ -34,6 +38,6 @@ public class VinniController implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-        System.out.println("a key is pressed");
+
     }
 }

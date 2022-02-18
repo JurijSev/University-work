@@ -8,12 +8,12 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class GiveFocus implements MouseListener {
+public class MouseHandler implements MouseListener {
 
     private GameView view;
     private GameWorld world;
 
-    public GiveFocus(GameWorld world, GameView v){
+    public MouseHandler(GameWorld world,GameView v){
         this.world = world;
         this.view = v;
     }
@@ -24,6 +24,11 @@ public class GiveFocus implements MouseListener {
 
     @Override
     public void mousePressed(MouseEvent e) {
+        CircleShape circleShape = new CircleShape(1f);
+        DynamicBody ball = new DynamicBody(world, circleShape);
+        Point mousePoint = e.getPoint();
+        Vec2 worldPoint = view.viewToWorld(mousePoint);
+        ball.setPosition(worldPoint);
     }
 
     @Override
@@ -32,7 +37,6 @@ public class GiveFocus implements MouseListener {
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        view.requestFocus();
     }
 
     @Override

@@ -1,15 +1,8 @@
 package game;
 
 import city.cs.engine.*;
-import city.cs.engine.Shape;
-import org.jbox2d.common.Vec2;
 
 import javax.swing.JFrame;
-
-import java.awt.*;
-import java.io.IOException;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
 
 /**
  * Your main game entry point
@@ -30,9 +23,12 @@ public class Game {
 
         //3. make a view to look into the game world
         GameView view = new GameView(world,500,500);
+        view.addMouseListener(new GiveFocus(world,view));
 
-        view.addMouseListener(new GiveFocus(view));
+        MouseHandler mouseHandler = new MouseHandler(world,view);
 
+        view.addMouseListener(mouseHandler);
+        view.addMouseListener(mouseHandler);
 
         VinniController controller = new VinniController(world.getVinni());
 
