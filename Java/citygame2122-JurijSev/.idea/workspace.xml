@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="Added Event jump, added removeallimages() to change image direction.">
+    <list default="true" id="1605f5f2-4a8b-4f0f-b27a-6eefdb5a43a7" name="Changes" comment="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;Note - next is to see if I can change what image is shown (so there is an actual animation) or find out if i can make a gif out of my images.">
       <change beforePath="$PROJECT_DIR$/../BodiesDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../BodiesDemo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/1 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/1 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/10 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/10 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/11 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/11 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/2 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/2 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/3 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/3 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/4 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/4 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/5 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/5 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/6 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/6 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/7 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/7 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/8 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/8 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/9 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/9 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/Fall 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/Fall 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/Fall.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/Fall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/front.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/front2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/front2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/throw 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/throw 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/throw 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/throw 3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vini/throw.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/throw.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Vinni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Vinni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/VinniController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/VinniController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +109,7 @@
       <workItem from="1644925947421" duration="924000" />
       <workItem from="1645185881913" duration="3801000" />
       <workItem from="1645197001547" duration="3332000" />
-      <workItem from="1645200525158" duration="693000" />
+      <workItem from="1645200525158" duration="1059000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -235,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645199942375</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;Note - next is to see if I can change what image is shown (so there is an actual animation) or find out if i can make a gif out of my images.">
+      <created>1645201359064</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645201359064</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +241,7 @@
     <MESSAGE value="Added Background" />
     <MESSAGE value="Added Events (walk left and right)" />
     <MESSAGE value="Added Event jump, added removeallimages() to change image direction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Event jump, added removeallimages() to change image direction." />
+    <MESSAGE value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;Note - next is to see if I can change what image is shown (so there is an actual animation) or find out if i can make a gif out of my images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;Note - next is to see if I can change what image is shown (so there is an actual animation) or find out if i can make a gif out of my images." />
   </component>
 </project>
