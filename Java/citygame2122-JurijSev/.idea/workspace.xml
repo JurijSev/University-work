@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AccessDemo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NullPointerPractice" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Vinni/VinniLeftWalk.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Vinni/VinniRightWalk.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/VinniController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/VinniController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AccessDemo" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -110,6 +118,7 @@
       <workItem from="1645197001547" duration="3332000" />
       <workItem from="1645200525158" duration="1059000" />
       <workItem from="1645203122502" duration="104000" />
+      <workItem from="1645787015503" duration="5710000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
