@@ -16,9 +16,15 @@ public class GameView extends UserView {
         grass = new ImageIcon("data/Background/Grass.png").getImage();
     }
 
+
     @Override
     protected void paintBackground(Graphics2D g) {
         g.drawImage(sky, 0, 0,500,500, this);
         g.drawImage(grass, -100, 100,1000,500, this);
+
     }
+//    @Override
+//    protected void paintForeground(Graphics2D g){
+//        g.drawImage(grass, -100, 100,1000,500, this);
+//    }
 }

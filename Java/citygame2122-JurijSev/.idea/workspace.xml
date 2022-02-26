@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;The images (while moving) now are gifs so now it is an animation.">
-      <change afterPath="$PROJECT_DIR$/data/Background/Grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Background/blueSky.jpg" afterDir="false" />
+    <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="Added correct background - sky and grass.">
       <change beforePath="$PROJECT_DIR$/../AccessDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessDemo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NullPointerPractice" beforeDir="false" afterPath="$PROJECT_DIR$/../NullPointerPractice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/GameView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <workItem from="1645197001547" duration="3332000" />
       <workItem from="1645200525158" duration="1059000" />
       <workItem from="1645203122502" duration="104000" />
-      <workItem from="1645787015503" duration="6437000" />
+      <workItem from="1645787015503" duration="15699000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645908133785</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added correct background - sky and grass.">
+      <created>1645909144920</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645909144921</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +265,7 @@
     <MESSAGE value="Added Event jump, added removeallimages() to change image direction." />
     <MESSAGE value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;Note - next is to see if I can change what image is shown (so there is an actual animation) or find out if i can make a gif out of my images." />
     <MESSAGE value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;The images (while moving) now are gifs so now it is an animation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;The images (while moving) now are gifs so now it is an animation." />
+    <MESSAGE value="Added correct background - sky and grass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added correct background - sky and grass." />
   </component>
 </project>

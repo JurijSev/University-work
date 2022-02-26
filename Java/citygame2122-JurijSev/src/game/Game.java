@@ -22,7 +22,7 @@ public class Game {
 
 
         //3. make a view to look into the game world
-        GameView view = new GameView(world,500,500);
+        GameView view = new GameView(world,1000,500);
         view.addMouseListener(new GiveFocus(world,view));
 
         MouseHandler mouseHandler = new MouseHandler(world,view);
@@ -37,7 +37,7 @@ public class Game {
 
 
         //optional: draw a 1-metre grid over the view
-        // view.setGridResolution(1);
+        view.setGridResolution(1);
 
 
         //4. create a Java window (frame) and add the game
