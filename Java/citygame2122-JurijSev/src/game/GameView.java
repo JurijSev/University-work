@@ -1,6 +1,7 @@
 package game;
 
 import city.cs.engine.UserView;
+import org.jbox2d.common.Vec2;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,6 +15,7 @@ public class GameView extends UserView {
         super(world, width, height);
         sky = new ImageIcon("data/Background/blueSky.jpg").getImage();
         grass = new ImageIcon("data/Background/Grass.png").getImage();
+        this.setCentre(new Vec2(world.getVinni().getPosition().x, world.getVinni().getPosition().y));
     }
 
 

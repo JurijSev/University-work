@@ -1,6 +1,7 @@
 package game;
 
 import city.cs.engine.*;
+import org.jbox2d.common.Vec2;
 
 import javax.swing.JFrame;
 
@@ -32,6 +33,8 @@ public class Game {
         VinniController controller = new VinniController(world.getVinni());
 
         view.addKeyListener(controller);
+
+        //view.setCentre(new Vec2(world.getVinni().getPosition().x, world.getVinni().getPosition().y));
 
 
 

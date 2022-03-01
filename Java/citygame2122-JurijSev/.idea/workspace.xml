@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="Added correct background - sky and grass.">
+    <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="Created Several platforms and tested most of them.&#10;Note: need to figure out how to move the camera to be stationary on the player.">
       <change beforePath="$PROJECT_DIR$/../AccessDemo" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessDemo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NullPointerPractice" beforeDir="false" afterPath="$PROJECT_DIR$/../NullPointerPractice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/GameView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/GameWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/GameWorld.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AccessDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -117,7 +115,8 @@
       <workItem from="1645197001547" duration="3332000" />
       <workItem from="1645200525158" duration="1059000" />
       <workItem from="1645203122502" duration="104000" />
-      <workItem from="1645787015503" duration="15699000" />
+      <workItem from="1645787015503" duration="15785000" />
+      <workItem from="1645969460907" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645909144921</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created Several platforms and tested most of them.&#10;Note: need to figure out how to move the camera to be stationary on the player.">
+      <created>1645918216911</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1645918216911</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +272,7 @@
     <MESSAGE value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;Note - next is to see if I can change what image is shown (so there is an actual animation) or find out if i can make a gif out of my images." />
     <MESSAGE value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;The images (while moving) now are gifs so now it is an animation." />
     <MESSAGE value="Added correct background - sky and grass." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added correct background - sky and grass." />
+    <MESSAGE value="Created Several platforms and tested most of them.&#10;Note: need to figure out how to move the camera to be stationary on the player." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Several platforms and tested most of them.&#10;Note: need to figure out how to move the camera to be stationary on the player." />
   </component>
 </project>
