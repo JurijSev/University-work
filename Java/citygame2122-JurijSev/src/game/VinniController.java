@@ -21,12 +21,8 @@ public class VinniController implements KeyListener {
     public void keyPressed(KeyEvent e) {
         int code = e.getKeyCode();
         if(code == KeyEvent.VK_D){
-            vinni.removeAllImages();
-            vinni.addImage(new BodyImage("data/Vinni/VinniRightWalk.gif", 4f));
             vinni.startWalking(WALKING_SPEED);
         }else if(code == KeyEvent.VK_A){
-            vinni.removeAllImages();
-            vinni.addImage(new BodyImage("data/Vinni/VinniLeftWalk.gif", 4f));
             vinni.startWalking(-WALKING_SPEED);
         }else if(code == KeyEvent.VK_SPACE){
             vinni.jump(10);
