@@ -30,9 +30,13 @@ public class Game {
 
         view.addMouseListener(mouseHandler);
 
-        VinniController controller = new VinniController(world.getVinni());
+        VinniController controller = new VinniController(world.getVinni(),view);
 
         view.addKeyListener(controller);
+
+        ViewListener viewController = new ViewListener(world.getVinni(),view);
+
+        world.addStepListener(viewController);
 
         //view.setCentre(new Vec2(world.getVinni().getPosition().x, world.getVinni().getPosition().y));
 

@@ -10,9 +10,11 @@ public class VinniController implements KeyListener {
 
     private static final float WALKING_SPEED = 5;
     private Vinni vinni;
+    private GameView view;
 
-    public VinniController(Vinni v) {
+    public VinniController(Vinni v, GameView view ) {
         this.vinni = v;
+        this.view = view;
     }
 
     @Override
@@ -28,7 +30,13 @@ public class VinniController implements KeyListener {
             vinni.startWalking(-WALKING_SPEED);
         }else if(code == KeyEvent.VK_SPACE){
             vinni.jump(10);
+        }else if(code == KeyEvent.VK_Q){
+            vinni.getBackpack().toggle();
+        }else if(code == KeyEvent.VK_W){
+            vinni.getBackpack().getCurrentItem().operate();
         }
+        view.setCentre(vinni.getPosition());
+
     }
 
     @Override

@@ -104,7 +104,8 @@ public class GameWorld extends World {
         vinni.setCredits(15);
 
 
-
+        vinni.getBackpack().addItem(new Pistol(vinni));
+        vinni.getBackpack().addItem(new Jetpack(vinni));
         //**move** here the rest of the code from Gave.java that
         //populates the World - add platforms, Student, etc.
         //(don't add anything related to the view)

@@ -18,6 +18,14 @@ public class Vinni extends Walker {
 
     private int credits;
 
+    private String direction;
+
+    private Backpack backpack = new Backpack();
+
+    public Backpack getBackpack(){
+        return backpack;
+    }
+
     public Vinni(World world) {
         super(world, vinniShape);
         addImage(standingImageRight);
@@ -31,5 +39,6 @@ public class Vinni extends Walker {
     public void setCredits(int credits) {
         this.credits = credits;
     }
+
 
 }

@@ -15,7 +15,7 @@ public class GameView extends UserView {
         super(world, width, height);
         sky = new ImageIcon("data/Background/blueSky.jpg").getImage();
         grass = new ImageIcon("data/Background/Grass.png").getImage();
-        this.setCentre(new Vec2(world.getVinni().getPosition().x, world.getVinni().getPosition().y));
+
     }
 
 
