@@ -1,6 +1,10 @@
 package game;
 
 import city.cs.engine.*;
+import city.cs.engine.Shape;
+import org.jbox2d.common.Vec2;
+
+import java.awt.*;
 
 public class Vinni extends Walker {
     private static Shape vinniShape = new PolygonShape(
@@ -61,5 +65,14 @@ public class Vinni extends Walker {
         }
     }
 
+    public static final BodyImage emptyPot = new BodyImage("data/HoneyPots/emptyPot.png",1.7f);
+    public void throwPot(Vec2 t){
+        DynamicBody projectilePot = new DynamicBody(this.getWorld(), new CircleShape(0.6f));
+        projectilePot.addImage(emptyPot);
+        Vec2 dir = t.sub(this.getPosition());
+        dir.normalize();
 
+        projectilePot.setPosition(this.getPosition().add(dir.mul(1f)));
+        projectilePot.setLinearVelocity(dir.mul(15));
+    }
 }

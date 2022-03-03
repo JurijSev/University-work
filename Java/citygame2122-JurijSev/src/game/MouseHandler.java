@@ -24,11 +24,11 @@ public class MouseHandler implements MouseListener {
 
     @Override
     public void mousePressed(MouseEvent e) {
-        CircleShape circleShape = new CircleShape(1f);
-        DynamicBody ball = new DynamicBody(world, circleShape);
-        Point mousePoint = e.getPoint();
-        Vec2 worldPoint = view.viewToWorld(mousePoint);
-        ball.setPosition(worldPoint);
+        //CircleShape circleShape = new CircleShape(1f);
+        //DynamicBody ball = new DynamicBody(world, circleShape);
+        //Point mousePoint = e.getPoint();
+        //Vec2 worldPoint = view.viewToWorld(mousePoint);
+        //ball.setPosition(worldPoint);
     }
 
     @Override

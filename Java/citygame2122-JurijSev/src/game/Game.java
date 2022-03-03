@@ -20,10 +20,11 @@ public class Game {
 
         //code that creates bodies was moved
         //in the GameWorld constructor
-
+        GameView view = new GameView(world,1000,500);
 
         //3. make a view to look into the game world
-        GameView view = new GameView(world,1000,500);
+        view.addMouseListener(new DirectionalThrowing(world.getVinni(),view));
+
         view.addMouseListener(new GiveFocus(world,view));
 
         MouseHandler mouseHandler = new MouseHandler(world,view);
@@ -38,7 +39,7 @@ public class Game {
 
         world.addStepListener(viewController);
 
-        //view.setCentre(new Vec2(world.getVinni().getPosition().x, world.getVinni().getPosition().y));
+
 
 
 
