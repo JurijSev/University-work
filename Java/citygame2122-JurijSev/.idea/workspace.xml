@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="removed testing of double mouse handler">
-      <change afterPath="$PROJECT_DIR$/../CollisionDemo/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollisionDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CollisionDemo/CollisionDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/Q7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/out/production/Q7/BinarySearchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InteliJ/Programming/Spring Term/Tutorial 4/Q7/src/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Backpack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/BackpackItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Jetpack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Pistol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/StepListener.java" afterDir="false" />
+    <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="Made the camera follow the character smoothly. Now just need to make it a little more realistic - not have the camera centerd to the character but rather follow them a little">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/GameWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/GameWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/GameView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Vinni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Vinni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/StepListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/StepListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/VinniController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/VinniController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +116,7 @@
       <workItem from="1645203122502" duration="104000" />
       <workItem from="1645787015503" duration="15785000" />
       <workItem from="1645969460907" duration="1250000" />
-      <workItem from="1646307807787" duration="2070000" />
+      <workItem from="1646307807787" duration="4744000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
@@ -258,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645918216911</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Made the camera follow the character smoothly. Now just need to make it a little more realistic - not have the camera centerd to the character but rather follow them a little">
+      <created>1646319979473</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1646319979473</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +280,7 @@
     <MESSAGE value="Vinni now changes image depending on whether he is walking (left and right have their own images) or standing which depends on which way he was walking previously.&#10;The images (while moving) now are gifs so now it is an animation." />
     <MESSAGE value="Added correct background - sky and grass." />
     <MESSAGE value="Created Several platforms and tested most of them.&#10;Note: need to figure out how to move the camera to be stationary on the player." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Several platforms and tested most of them.&#10;Note: need to figure out how to move the camera to be stationary on the player." />
+    <MESSAGE value="Made the camera follow the character smoothly. Now just need to make it a little more realistic - not have the camera centerd to the character but rather follow them a little" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the camera follow the character smoothly. Now just need to make it a little more realistic - not have the camera centerd to the character but rather follow them a little" />
   </component>
 </project>

@@ -9,6 +9,7 @@ class ViewListener implements StepListener {
     private Vinni vinni;
     private GameView view;
 
+
     public ViewListener(Vinni v, GameView view){
         this.vinni = v;
         this.view = view;
@@ -16,7 +17,7 @@ class ViewListener implements StepListener {
 
     @Override
     public void preStep(StepEvent stepEvent) {
-        view.setCentre(new Vec2(vinni.getPosition()));
+        view.setCentre(new Vec2(view.getCentre().sub(view.getCentre().sub(vinni.getPosition()).mul(0.005f))));
     }
 
     @Override

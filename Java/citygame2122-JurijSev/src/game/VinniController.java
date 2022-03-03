@@ -35,7 +35,6 @@ public class VinniController implements KeyListener {
         }else if(code == KeyEvent.VK_W){
             vinni.getBackpack().getCurrentItem().operate();
         }
-        view.setCentre(vinni.getPosition());
 
     }
 
