@@ -11,13 +11,13 @@ public abstract class BackpackItem {
 
     protected AttachedImage aImage;
 
-    public BackpackItem(Vinni vinni){
+    public BackpackItem(Vinni vinni) {
         this.vinni = vinni;
     }
 
-    public void putOn(){
+    public void putOn() {
         aImage = vinni.addImage(image);
-        aImage.setOffset(new Vec2(1,0));
+        aImage.setOffset(new Vec2(1, 0));
         aImage.flipHorizontal();
     }
 
@@ -29,4 +29,6 @@ public abstract class BackpackItem {
     public abstract String getType();
 
     public abstract void operate();
+
 }
+

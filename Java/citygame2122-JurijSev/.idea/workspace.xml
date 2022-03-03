@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="Made the character's body shape more suitable and created a startWalking function that automates the image change.">
-      <change afterPath="$PROJECT_DIR$/data/HoneyPots/emptyPot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/HoneyPots/fullPot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/DirectionalThrowing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vinni/3 right.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/3 right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Vinni/VinniRightWalk.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/Vinni/VinniRightWalk.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/MouseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/MouseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/PolygonEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/PolygonEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/Vinni.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/MouseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Vinni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Vinni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/BackpackItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/BackpackItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/VinniController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/VinniController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +116,8 @@
       <workItem from="1645787015503" duration="15785000" />
       <workItem from="1645969460907" duration="1250000" />
       <workItem from="1646307807787" duration="11655000" />
+      <workItem from="1646330934774" duration="355000" />
+      <workItem from="1646331418937" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>

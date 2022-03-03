@@ -26,9 +26,11 @@ public class VinniController implements KeyListener {
             vinni.startWalking(-WALKING_SPEED);
         }else if(code == KeyEvent.VK_SPACE){
             vinni.jump(10);
-        }else if(code == KeyEvent.VK_Q){
+        }
+        else if(code == KeyEvent.VK_Q){
             vinni.getBackpack().toggle();
-        }else if(code == KeyEvent.VK_W){
+        }
+       else if(code == KeyEvent.VK_W){
             vinni.getBackpack().getCurrentItem().operate();
         }
 
