@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b1a599a-998c-4f0b-8b96-f91aede257bc" name="Changes" comment="Made the character's body shape more suitable and created a startWalking function that automates the image change.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CityGame/game/VinniController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/BackpackItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/BackpackItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/VinniController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/VinniController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CollisionDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AudioDemo" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -117,7 +114,9 @@
       <workItem from="1645969460907" duration="1250000" />
       <workItem from="1646307807787" duration="11655000" />
       <workItem from="1646330934774" duration="355000" />
-      <workItem from="1646331418937" duration="319000" />
+      <workItem from="1646331418937" duration="702000" />
+      <workItem from="1646686086032" duration="2000" />
+      <workItem from="1647346051677" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Added coder info">
       <created>1643720072921</created>
